@@ -1,0 +1,62 @@
+body {
+  background-image: url(contactus.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.contactus {
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.contact-form h2 {
+  text-align: center;
+  color: #333;
+  font-family: sans-serif;
+}
+
+.contact-form label {
+  font-family: sans-serif;
+  color: black;
+}
+
+.contact-form input {
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 2px solid black; /* Border width, style aur color define karein */
+  font-size: 15px;
+  padding: 10px;
+  resize: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  box-sizing: border-box;
+  resize: none;
+  border-radius: 5px;
+    width: 100%;
+  padding: 10px;
+}
+
+.contact-form button {
+  background-color: #147117;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.contact-form button:hover {
+  background-color: #59a15d;
+}

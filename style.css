@@ -1,30 +1,46 @@
 * {
-    color: white;
-    text-decoration: none;
+
+color: white;
+margin: 0;
+padding: 0;
+
 }
 
-#navbar {
-    height: 40px;
-    background-color: #0f1111;
+#navigation {
+
+    background-color: rgb(3, 3, 3);
+    width: 100%;
+    height: 50px;
+    align-content: center;
+}
+     
+#navigation ul {
+
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
 
-#logo {
-    color: #f08804;
-    font-size: 25px;
+#navigation ul li {
+
+    margin: 0 150px;
+    align-content: center;
 }
 
-button {
-    background-color: #f08804;
-    font-size: 15px;
-    font-family: sans-serif;
+#navigation ul li a:hover {
+    background-color: #f3c90e; /* Hover par background color change karna */
+    border-radius: 0px; /* Corners ko round karna */
+    
 }
 
 a {
-    margin-right: 150px;
-    margin-left: 150px;
-    font-family: sans-serif;
-    font-weight: bolder;
-        }
+    
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Press Gothic Regular;  
+    
+}
+
 
 body{
     background-image: url(lou.jpg);
@@ -36,24 +52,21 @@ body{
    
 }
 
-h1 {
-    text-align: center;
-    font-size: 100px;
-    font-family: Arial;
-}
 #paragraph {
     height: 350px;
     width: 600px;
     margin-top: 200px;
+    margin-left: 20px;
     text-align: center;
    background-image: url(joel.jpg);
     background-position: center;
     background-size: cover;
     color: white;
+    
+     
    }
 #p2 {
-    background-color: #0f1111;
-    height: 350px;
+    height: 370px;
     width: 600px;
     margin-left: 900px;
     text-align: center;
@@ -62,3 +75,28 @@ h1 {
     background-size: cover;
 
 }
+@font-face {
+    font-family: 'pressgothic';
+    src: url(fonts\Press Gothic Regular.otf) format(regular);
+    
+}
+
+
+  
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family:'Times New Roman';
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
