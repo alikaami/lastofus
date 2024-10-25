@@ -1,0 +1,61 @@
+#navigation ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+  background-color: #000; /* Black background for the menu bar */
+  text-align: center; /* Center align the menu */
+  font-stretch: condensed;
+}
+
+/* Main menu items */
+#navigation ul li {
+  position: relative;
+  display: inline-block; /* Display main menu items inline */
+  padding: 15px 150px; /* Spacing for each menu item */
+}
+
+#navigation ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* White text for menu items */
+  font-size: 18px; /* Increase font size */
+  font-family: sans-serif; /* Font style */
+}
+
+/* Change color on hover */
+#navigation ul li a:hover {
+  color: #ffcc00; /* Change text color to yellow on hover */
+}
+
+/* Submenu */
+#navigation ul .submenu {
+  display: none; /* Hide submenu initially */
+  position: absolute;
+  top: 100%; /* Position below the main menu */
+  left: 10;
+  background-color: #000; /* Light background for submenu */
+  /* padding: 10px 10px; */
+  width: 150px; /* Set a fixed width for the submenu */
+  text-align: left; /* Align text to the left */
+  z-index: 100; /* Ensure it appears above other content */
+}
+
+/* Show submenu on hover */
+#navigation ul li:hover .submenu {
+  display: block; /* Show submenu on hover */
+}
+
+/* Submenu items */
+#navigation ul .submenu li {
+  padding: 10px; /* Padding inside submenu */
+}
+
+#navigation ul .submenu li a {
+  color: white; /* Submenu text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 15px; /* Font size for submenu */
+}
+
+/* Submenu hover effect */
+#navigation ul .submenu li a:hover {
+  color: #ffcc00; /* Change text color to blue on hover */
+}
